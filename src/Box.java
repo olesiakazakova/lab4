@@ -6,7 +6,9 @@ public class Box<T> {
         return this.obj;
     }
     //конструкторы
-    public Box (){}
+    public Box (){
+        this.obj = null;
+    }
 
     public Box (T obj){
         this.obj = obj;
